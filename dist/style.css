@@ -1,0 +1,51 @@
+body {
+	font-size: 24px;
+	background-color: #87b5b5;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-shrink: none;
+	justify-content: space-around;
+}
+
+#editor,
+#preview {
+	min-width: 300px;
+	width: 420px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #c0d8d8;
+}
+
+#editor {
+	min-height: 300px;
+}
+
+img {
+	width: 100%;
+}
+
+pre,
+code {
+	background-color: #fff;
+	font-size: 14px;
+}
+
+pre {
+	padding: 10px;
+}
+
+#preview h1 {
+	font-size: 40px;
+	margin: 5px 0;
+}
+
+#preview h2 {
+	font-size: 20px;
+}
+#preview p,
+#preview li {
+	font-size: 16px;
+}
